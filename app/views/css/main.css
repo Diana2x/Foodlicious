@@ -1,0 +1,108 @@
+body {
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #b0b0b0 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #b0b0b0;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+/* ------------------------------- 404 not found --------------------------- */
+
+.container-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+.container-404 img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.container-404 h1 {
+  margin-top: -50px;
+}
+
+/* -------------------------------Footer--------------------------- */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+  gap: 20px;
+  background-color: #92400e;
+  color: white;
+  font-weight: bold;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #eab308;
+}
+
+/* -------------------------------Auth Register--------------------------- */
+.section-register {
+  background-color: #f5ebdc;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-register-container {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.gif-modal {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+/* -------------------------------Products Client--------------------------- */
+.section-products-client {
+  background-color: #f5ebdc;
+  display: flex;
+  flex-direction: column;
+}
+
+.shopping-cart {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  margin-left: auto;
+  margin-right: 1em;
+}
+
+.nav-total-price {
+  margin-right: 3px;
+}

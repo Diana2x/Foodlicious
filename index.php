@@ -43,6 +43,7 @@ if (isset($_GET['views'])) {
   }
 
   ?>
+  <h1>Hola</h1>
 </body>
 
 </html>
